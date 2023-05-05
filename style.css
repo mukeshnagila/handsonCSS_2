@@ -80,13 +80,13 @@
             color: black;
         }
 
-        h2 {
+        /* h2 {
             text-align: center;
             text-decoration-line: underline;
             font-style: none;
             color: rgba(82, 12, 203, 0.668);
             margin-top: auto;
-        }
+        } */
 
         form {
             text-align: center;
@@ -121,37 +121,22 @@
         }
 
         .menu1 {
-            width: 20%;
-            border: green;
-            border-width: 5px;
-            border-radius: 15px;
+            width: 90%;            
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 50px;
             color: rgb(26, 26, 138);
-            background-color: aqua;
             text-align: center;
-            margin-left: 80px;
         }
 
         .menu2 {
-            width: 20%;
-            border: green;
-            border-width: 5px;
+            width: 22%;
+            border: 3px solid green;
             border-radius: 15px;
             color: rgb(26, 26, 138);
             background-color: aqua;
             text-align: center;
-            margin-left: 80px;
-            margin-left: 580px;
-            margin-top: -210px;
-        }
-
-        .menu3 {
-            width: 20%;
-            border: green;
-            border-width: 5px;
-            border-radius: 15px;
-            color: rgb(26, 26, 138);
-            background-color: aqua;
-            text-align: center;
-            margin-left: 1050px;
-            margin-top: -210px;
         }
